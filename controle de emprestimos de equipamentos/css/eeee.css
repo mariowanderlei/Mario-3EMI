@@ -1,0 +1,139 @@
+body{
+    background: url("../img/desfocado.png");
+    font-family: "Arial, Helvetica, sans-serif";
+    background-size: cover;
+    margin: 0;
+}
+
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 40px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    max-width: 300px;
+    padding: 100px;
+    margin: 0 auto;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 1);
+}
+
+.texto {
+    font-size: 35px;
+    color: rgb(0, 0, 0);
+    text-align: center;
+    align-items: center;
+    display: block;
+}
+
+input {
+    margin: 15px;
+    font-size: 16px;
+    height: 20px;
+    letter-spacing:1px;
+    text-shadow:0;
+}
+
+.textinho {
+    font-size: 20px;
+    color: rgb(0, 129, 241);
+    text-align: center;
+    display: block;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.logo {
+    height: 100%;
+    width: 115px;
+    display: block;
+    background-size: contain;
+}
+
+button {
+    outline:none;
+    height: 40px;
+    text-align: center;
+    width: 100%;
+    border-radius:40px;
+    background: #fff;
+    border: 2px solid #1ECD97;
+    color: green;
+    letter-spacing:1px;
+    text-shadow:0;
+  
+    font {
+      size:12px;
+      height:bold;
+    }
+    
+    cursor: pointer;
+    transition: all 0.25s ease;
+  
+    &:hover {
+      color:white;
+      background: #1ECD97;
+    }
+  
+     active {
+      letter-spacing: 2px;
+      letter-spacing: 2px ;
+    }
+  }
+
+input[type="hidden"],
+input[type="id"],
+input[type="email"],
+input[type="password"],
+input[type="text"],
+input[type="password"],
+input[type="date"],
+input[type="file"],
+input[type="number"]
+
+
+{
+    width: 97.5%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    align-items: center;
+}
+
+form {
+    max-width: 30%;
+    align-items: center;
+    background-color:rgb(187, 176, 176);
+}
+
+h2 {
+    font-size: 30px;
+    font-weight: bold;
+    color: #ffffff;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  
+  td, th, tr {
+    padding: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    
+  }
+
+  .butao {
+
+    width: 20%;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: aliceblue;
+    border-radius: 20px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.788);
+    justify-content: center;
+    display: flex;
+  }

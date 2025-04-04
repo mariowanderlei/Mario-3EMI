@@ -1,0 +1,178 @@
+body { 
+    height: auto;
+    background: url("../img/desfocado.png");
+    margin: 0;
+    padding: 0;
+    background-size: cover;  
+}
+
+.container {
+    width: 50%;
+    margin: 50px auto;
+    padding: 60px;
+    background-color: aliceblue;
+    border-radius: 20px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.788);
+    
+}
+
+h2 {
+    margin-top: 0;
+    text-align: center;
+}
+
+label {
+    display: block;
+    margin: 10px 0 10px;
+}
+
+input[type="text"],
+input[type="password"],
+input[type="date"],
+input[type="file"],
+input[type="number"]
+
+{
+    width: 97.5%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+}
+
+a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+p {
+    margin: 10px 0;
+}
+
+date:data {
+    display: none;
+}
+
+td {
+    padding: 10px;
+    width: 10%;
+}
+
+echo {
+    text-align: center;
+}
+
+.imagen {
+    display: flex;
+    justify-content: center; 
+    align-items: center;  
+    height: 100vh;  
+}
+
+* {
+    font-family: 'Roboto', sans-serif;
+  }
+
+.container01 {
+  position: absolute;
+  margin-left: -3%;
+  margin-top: 10.9%;
+  width: 100%;
+  height: 40px;
+  text-align: center;
+}
+button {
+  outline:none;
+  height: 40px;
+  text-align: center;
+  width: 100%;
+  border-radius:40px;
+  background: #fff;
+  border: 2px solid #1ECD97;
+  color: green;
+  letter-spacing:1px;
+  text-shadow:0;
+
+  font {
+    size:12px;
+    height:bold;
+  }
+  
+  cursor: pointer;
+  transition: all 0.25s ease;
+
+  &:hover {
+    color:white;
+    background: #1ECD97;
+  }
+
+   active {
+    letter-spacing: 2px;
+    letter-spacing: 2px ;
+  }
+}
+.onclic {
+  width: 40px;
+  border-color:#bbbbbb;
+  border-width:3px;
+  font-size:0;
+  border-left-color:#1ECD97;
+  animation: rotating 2s 0.25s linear infinite;
+
+  &:after {
+    content:"";
+  }
+  &:hover {
+    color:#1ECD97;
+    background: white;
+  }
+}
+.validate {
+  font-size:13px;
+  color: white;
+  background: #1ECD97;
+  &:after {
+    font-family: "Arial, Helvetica, sans-serif";
+    content:"\f00c";
+  }
+}
+
+@keyframes rotating {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.butao {
+
+  width: 20%;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: aliceblue;
+  border-radius: 20px;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.788);
+  justify-content: center;
+  display: flex;
+}
+
+h2 {
+  font-size: 30px;
+  font-weight: bold;
+  color: #ffffff;
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+td, th, tr {
+  padding: 10px;
+  font-family: Arial, Helvetica, sans-serif;
+  
+}
+  
