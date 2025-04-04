@@ -1,0 +1,33 @@
+Crie páginas PHP que realizem as seguintes consultas e exibam os resultados em tabelas HTML:
+
+1. Funcionários
+
+Crie uma página chamada consulta_funcionarios.php
+
+Exiba os funcionários com salário superior a R$ 3000, ordenados do maior para o menor salário.
+
+Campos a exibir: nome, salário.
+
+2. Produtos
+
+Crie uma página chamada consulta_produtos.php
+
+Exiba produtos cujo estoque seja inferior a 10 unidades.
+
+Campos a exibir: nome do produto, estoque.
+
+3. Clientes
+
+Crie uma página chamada consulta_clientes.php
+
+Exiba clientes da cidade de São Paulo com idade superior a 30 anos.
+
+Campos a exibir: nome, cidade, idade.
+
+4. Clientes e Pedidos (Consulta com JOIN)
+
+Crie uma página chamada consulta_clientes_pedidos.php
+
+Exiba os clientes juntamente com as datas e valores dos seus pedidos, ordenados pela data do pedido (do mais recente para o mais antigo).
+
+Campos a exibir: nome do cliente, cidade, data do pedido, valor do pedido
