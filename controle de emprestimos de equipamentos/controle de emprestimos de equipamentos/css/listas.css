@@ -1,0 +1,112 @@
+body{
+    background: url("../img/desfocado.png");
+    font-family: "Arial, Helvetica, sans-serif";
+    background-size: cover;
+    margin: 0;
+}
+
+input[type="text"],
+input[type="password"],
+input[type="date"],
+input[type="file"],
+input[type="number"]
+
+.botao {
+  
+    height: 30px;
+    text-align: center;
+    width: 20%;
+    border-radius: 40px;
+    background: #fff;
+    border: 2px solid #1ECD97;
+    color: green;
+  
+    text-shadow: 0;
+    font-size: 12px;
+    font-weight: bold;   
+    transition: all 0.25s ease;
+    align-items: center;
+  
+    &:hover {
+      color:white;
+      background: #1ECD97;
+    }
+  
+     active {
+      letter-spacing: 2px;
+      letter-spacing: 2px ;
+    }
+  }
+
+  button {
+    height: 30px;
+    text-align: center;
+    width: 20%;
+    border-radius: 40px;
+    background: #fff;
+    border: 2px solid #1ECD97;
+    color: green;
+    letter-spacing: 1px;
+
+    font-size: 12px;
+    font-weight: bold;   
+    cursor: pointer;
+    transition: all 0.25s ease;
+    align-items: center;
+  
+    &:hover {
+      color:white;
+      background: #1ECD97;
+    }
+  
+     active {
+      letter-spacing: 2px;
+      letter-spacing: 2px ;
+    }
+  }
+
+  .container1 {
+    width: 50%;
+    margin: 50px auto;
+    padding: 60px;
+    background-color: aliceblue;
+    border-radius: 20px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.788);
+    
+}
+
+h2 {
+    font-size: 30px;
+    font-weight: bold;
+    color: #ffffff;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+td, th, tr {
+    padding: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+
+.butao {
+
+    width: 20%;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: aliceblue;
+    border-radius: 20px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.788);
+    justify-content: center;
+    display: flex;
+
+    &:hover {
+      color:white;
+      background: #1ECD97;
+    }
+  
+     active {
+      letter-spacing: 2px;
+      letter-spacing: 2px ;
+    }
+}
